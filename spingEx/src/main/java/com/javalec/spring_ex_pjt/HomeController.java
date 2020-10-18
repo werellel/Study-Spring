@@ -12,6 +12,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 
 /**
  * Handles requests for the application home page.
@@ -48,4 +49,14 @@ public class HomeController {
 		
 		return "member/memberView";
 	}
+	
+	@RequestMapping("/board/checkId") // RequestParam은 반드시 파라미터가 입력되어야 400 에러를 뱉지 않음.
+	public String checkId(@RequestParam("id") String id, @RequestParam("pw") int pw, Model model) {
+		model.addAttribute("identify", id);
+		model.addAttribute("password", pw);
+				
+		return "board/checkId";
+	}
+	
+	
 }
