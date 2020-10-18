@@ -4,6 +4,8 @@ import java.text.DateFormat;
 import java.util.Date;
 import java.util.Locale;
 
+import javax.servlet.http.HttpServletRequest;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
@@ -36,4 +38,14 @@ public class HomeController {
 		return "home";
 	}
 	
+	@RequestMapping("/member/memberView")
+	public String viewMember(HttpServletRequest httpServletRequest, Model model) {
+		String id = httpServletRequest.getParameter("id");
+		String pw = httpServletRequest.getParameter("pw");
+		
+		model.addAttribute("id", id);
+		model.addAttribute("pw", pw);
+		
+		return "member/memberView";
+	}
 }
