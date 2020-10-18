@@ -58,5 +58,9 @@ public class HomeController {
 		return "board/checkId";
 	}
 	
+	@RequestMapping("member/join")
+	public String joinData(Member member) {
+		return "member/join";
+	}
 	
 }
