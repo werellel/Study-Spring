@@ -3928,3 +3928,27 @@ java.net.UnknownHostException: spring.io
 	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
 	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2020-10-25 01:46:14.216
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2020-10-25 01:46:14.222
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2020-10-25 01:46:20.658
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2020-10-25 01:46:20.664
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2020-10-25 01:46:20.669
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2020-10-25 02:36:19.859
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2020-10-25 02:36:19.865
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2020-10-25 02:36:19.870
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT

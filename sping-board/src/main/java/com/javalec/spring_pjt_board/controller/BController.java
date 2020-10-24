@@ -25,7 +25,7 @@ public class BController {
 		
 		command = new BListCommand();
 		command.execute(model);
-		return "";
+		return "list";
 	}
 	
 	@RequestMapping("/write_view")
