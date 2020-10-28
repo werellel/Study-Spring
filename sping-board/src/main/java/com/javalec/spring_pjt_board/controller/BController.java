@@ -2,6 +2,7 @@ package com.javalec.spring_pjt_board.controller;
 
 import javax.servlet.http.HttpServletRequest;
 
+import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,6 +19,12 @@ import com.javalec.spring_pjt_board.command.BWriteCommand;
 @Controller
 public class BController {
 	BCommand command;
+	
+	public JdbcTemplate template;
+	
+	public void setTemplate(JdbcTemplate template) {
+		this.template = template;
+	}
 	
 	@RequestMapping("/list")
 	public String list(Model model) {
