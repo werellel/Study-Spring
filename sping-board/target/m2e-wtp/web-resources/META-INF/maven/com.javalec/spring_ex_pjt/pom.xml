@@ -33,6 +33,7 @@
 			<version>${org.springframework-version}</version>
 		</dependency>
 
+		<!-- JDBC Template -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-jdbc</artifactId>
